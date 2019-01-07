@@ -1,29 +1,20 @@
 # UIDrawerKit
+## A framework that allows you to create a `Drawer` like in [Shortcuts](https://itunes.apple.com/us/app/shortcuts/id915249334?mt=8) app.
+## Also UIDrawerKit allows you to present custom view controller in `UIDrawerView`
 
-[![CI Status](https://img.shields.io/travis/RomanEsin/UIDrawerKit.svg?style=flat)](https://travis-ci.org/RomanEsin/UIDrawerKit)
-[![Version](https://img.shields.io/cocoapods/v/UIDrawerKit.svg?style=flat)](https://cocoapods.org/pods/UIDrawerKit)
-[![License](https://img.shields.io/cocoapods/l/UIDrawerKit.svg?style=flat)](https://cocoapods.org/pods/UIDrawerKit)
-[![Platform](https://img.shields.io/cocoapods/p/UIDrawerKit.svg?style=flat)](https://cocoapods.org/pods/UIDrawerKit)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-UIDrawerKit is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'UIDrawerKit'
-```
-
-## Author
-
-RomanEsin, esinromanswift@gmail.com
-
-## License
-
-UIDrawerKit is available under the MIT license. See the LICENSE file for more info.
+### How to use it:
+  1. Create an object of `UIDrawerView`.
+  Its as simple as creating a `UIView`, but even easier. 
+  `var drawer = UIDrawerView()`
+  
+  2. Present drawer on your view.
+  For now its only possible to do with view that is presented on view controller.
+  Theres a special UIView extension for this.
+  `view.addContainerSubview(drawer, to: yourViewController)`
+  
+  3. Present your view controller in drawer.
+  `drawer.present(viewController)`
+  
+As you see its very simple to use.
+Please, report all bugs by tagging me in Twitter  [@EsinRomanSwift](https://www.twitter.com/EsinRomanSwift)
+And also leave a comment about what new features do you want to see

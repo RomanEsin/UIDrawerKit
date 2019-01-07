@@ -63,7 +63,6 @@ public class UIDrawerViewController: UIViewController {
         setupInsideView()
     }
     
-//    #warning("Search bar!")
     private func setupSearchBar() {
         searchBar = UISearchBar()
         searchBar.translatesAutoresizingMaskIntoConstraints = false

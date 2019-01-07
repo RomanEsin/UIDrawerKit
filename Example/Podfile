@@ -1,0 +1,6 @@
+use_frameworks!
+target 'UIDrawerKit_Tests' do
+  pod 'UIDrawerKit', :path => '../'
+  
+  
+end

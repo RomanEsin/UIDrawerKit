@@ -16,11 +16,11 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Roman Esin' => 'esinromanswift@gmail.com' }
   s.source           = { :git => 'https://github.com/RomanEsin/UIDrawerKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/EsinRomanSwift
+  s.social_media_url = 'https://twitter.com/EsinRomanSwift'
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'UIDrawerKit/Classes/**/*'
+  s.source_files = 'UIDrawerKit/Classes/*'
   
   # s.resource_bundles = {
   #   'UIDrawerKit' => ['UIDrawerKit/Assets/*.png']

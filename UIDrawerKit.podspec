@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
   s.summary          = 'A drawer like in `Shortcuts` app and some others. Its fast and easy to use. For more info read README.md'
   s.description      = 'Read README.md'
 
+  s.swift_version = '4.2'
+
   s.homepage         = 'https://github.com/RomanEsin/UIDrawerKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Roman Esin' => 'esinromanswift@gmail.com' }

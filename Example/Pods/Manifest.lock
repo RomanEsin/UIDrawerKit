@@ -1,0 +1,16 @@
+PODS:
+  - UIDrawerKit (0.1.0)
+
+DEPENDENCIES:
+  - UIDrawerKit (from `../`)
+
+EXTERNAL SOURCES:
+  UIDrawerKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UIDrawerKit: a4d4f5304451b647a0a7653919e06a97a694e6b4
+
+PODFILE CHECKSUM: 0ecda6a7643e356d3f6566f1e92527a65b1b48bb
+
+COCOAPODS: 1.5.3

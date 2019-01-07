@@ -1,0 +1,6 @@
+framework module UIDrawerKit {
+  umbrella header "UIDrawerKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
